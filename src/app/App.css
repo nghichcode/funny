@@ -45,20 +45,20 @@ button {
     cursor: pointer;
 }
 
-.simple-card {
+.s-card {
     background-color: white;
     border-radius: 2rem;
     padding: 1.5rem;
     box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.05);
 }
 
-.simple-card-image {
+.s-card-image {
     position: relative;
     height: 0;
     padding-bottom: 56.25%;
 }
 
-.simple-card-image > img {
+.s-card-image > img {
     position: absolute;
     top: 0;
     left: 0;
@@ -68,43 +68,43 @@ button {
     border-radius: 1rem;
 }
 
-.simple-card-content {
+.s-card-content {
     padding: 10px 0;
 }
 
-.simple-card-title {
+.s-card-title {
     font-weight: 500;
     font-size: 2rem;
     line-height: 1.6;
     color: #2b2b2b;
 }
 
-.simple-card-text {
+.s-card-text {
     font-weight: 300;
     line-height: 1.6;
     font-size: 1.4rem;
     margin-bottom: 5px;
 }
 
-.simple-card-line {
+.s-card-line {
     width: 30%;
     height: 2px;
     margin-left: auto;
     background-color: #08aeea;
 }
 
-.simple-card-actions {
+.s-card-actions {
     margin: 5px 0 0 0;
 }
-.simple-card-icon {
+.s-card-icon {
     font-size: 1.5em;
 }
 
-.simple-card-icon:hover {
+.s-card-icon:hover {
     color: #03a9f4;
 }
 
-.simple-card-icon.active {
+.s-card-icon.active {
     color: #ff5722;
 }
 
@@ -114,4 +114,19 @@ button {
 
 .pr-2 {
     padding-right: 2px;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.btn {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    cursor: default;
 }
